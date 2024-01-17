@@ -5,21 +5,21 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("What is the magic number? ");
-        int magicNumber = Console.ReadLine()
+        int magicNumber = int.Parse(Console.ReadLine());
 
         Console.WriteLine("What is your guess? ");
-        int guess = Console.ReadLine();
+        int guess = int.Parse(Console.ReadLine());
 
-        if guess > magicNumber {
-            console.WriteLine("Lower");
+        if (guess > magicNumber) {
+            Console.WriteLine("Lower");
         }
 
-        elseif guess < magicNumber {
-            console.WriteLine("Higher");
+        else if (guess < magicNumber) {
+            Console.WriteLine("Higher");
         }
 
-        else guess == magicNumber {
-            console.WriteLine("You guessed it! ");
+        else { 
+            Console.WriteLine("You guessed it! "); 
         }
     }
 }
