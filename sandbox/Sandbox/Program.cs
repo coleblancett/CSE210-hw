@@ -6,4 +6,7 @@ class Program
     {
         Console.WriteLine("Hello Sandbox World!");
     }
+    Person Tom = new("fff", "tom");
+    Student Jed = new("ggg", "Jed", "CSE");
+    Employee Robert = new("hhh", "Robert", "Grounds");
 }
