@@ -18,7 +18,8 @@ public class ReflectingActivity : Activity
         for (int i = 0; i < Duration; i++)
         {
             Console.WriteLine(prompts[random.Next(prompts.Length)]);
-            Thread.Sleep(1000); // Pause for 1 second
+            Console.WriteLine("When you have something in mind press enter. ");
+            Console.ReadLine();
         }
         End();
     }
